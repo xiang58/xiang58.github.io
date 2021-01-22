@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+
+<body>
+  <header></header>
+
+  <main>
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="col-lg-10 text-left">
+          <br/><br/>
+          <img src="http://ww3.sinaimg.cn/large/6af89bc8gw1f8silb0e2nj20bi0bi3ys.jpg"
+               alt="Daniel's selfie" height="200" width="200" id="myselfie"/>
+          <h1>Welcome</h1><br/>
+          <p id="pWelcome">
+            Hi there, I'm Daniel Xiang. I'm working as a Software Engineer at Tata Consultancy Services (TCS) right now. I studied Biology before but I've switch my major to Computer Science (CS). Although CS is a challenging topic, I've found a lot of fun in it! I'm
+            currently focusing on web & mobile development.
+          </p>
+        </div>
+  
+        <div class="col-lg-2" id="sidebar">
+          <br/>
+          <div class="card card-body bg-light">
+            <p><a href="https://github.com/" class="text-wrap">Link to Github</a></p>
+          </div>
+  
+          <br/>
+          <div class="card card-body bg-light">
+            <p><a href="https://leetcode.com/" class="text-wrap">Link to LeetCode</a></p>
+          </div>
+  
+          <br/>
+          <div class="card card-body bg-light">
+            <p><a href="https://www.w3schools.com/" class="text-wrap">Link to W3Schools</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="idxFtr" class="container-fluid text-center">
+    <p id="copyright">&copy; 2020 Daniel Xiang</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $('head').load('partials/head.html');
+      $('header').load('partials/navbar.html');
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+#myselfie {
+  margin-right: 30px;
+  margin-left: 50px;
+  float: left;
+}
+
+#logo {
+  width:50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#idxFtr {
+  margin-top: 80px;
+}
+
+#sklFtr {
+  margin-top: 110px;
+}
+
+#proFtr {
+  margin-top: 50px;
+}
+
+#conFtr {
+  margin-top: 280px;
+}
+
+#pWelcome {
+  font-size: 110%;
+  padding-right: 60px;
+}
+
+#links {
+  border-style: solid;
+  border-color: grey;
+  border-width: thick
+}
+
+#sidebar {
+  padding-right: 50px;
+}
+
+#techSkills {
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
+#proj, #contacts {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#copyright {
+  color: rgb(145, 146, 138);
+}
